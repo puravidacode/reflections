@@ -1,0 +1,4 @@
+Q1: What happens when you initialize a repository? Why do you need to do it?
+A1: It creates the .git hidden file. This is one of eventually more than one metadata files that tracks the history of the repository and the changes that are made. Without this file, no history can be tracked and thus git isn't operational.
+Q2: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A2: Staging area is as the time implies, just before it's ready to go. I think it's good for final review before cluttering up a more final picture in the repository. I think the working directory is kind of before the staging area... when you're doing the brunt work.
