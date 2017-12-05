@@ -1,0 +1,14 @@
+Q1: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A1: Helped me pinpoint the exact lines that had changed. By doing this, it drew my eyes exactly to where potential errors could be made and helped me skip over everything else.
+Q2:How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A2: You can look back at old programming habits you used to have and see how you've improved over time.
+Q3: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+A4:Pros - better aka more logical stopping points. With small descriptions, should certainly make it easier to actually use them usefully. Cons: increase the risk of either going too long without a commit and/or forgetting to do so.
+Q4: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A4: For their intended target audience and use. Google Docs is focused on users backing up Doc files - like Word/PPT/Excel type files. These are typically stand alone more often than not. It would be an added feature that would benefit very few and confuse many others to to save multiple files to one commit. For Git, it makes sense, as sometimes different coding files are inter-dependent upon each other.
+Q5: How can you use the commands git log and git diff to view the history of files?
+A5: git log first shows all the different git commits with their comments. Then git diff <#1> <#2> to compare the two. Red lines = subtracted lines and green lines = added lines.
+Q6: How might using version control make you more confident to make changes that could break something?
+A6: You can go back to exactly the same spot you left off. More importantly, you can compare the differences easily using git diff <#1> <#2> and see, highlighted, what changes were made to find what broke!
+Q7: Now that you have your workspace set up, what do you want to try using Git for?
+A7: Not sure... everything I freaking code and want to keep building! Like games, calculators, scripts, etc.
