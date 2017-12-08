@@ -1,2 +1,4 @@
 Q1: When would you want to create a remote repository rather than keeping all your work local?
 A1: allows you to access the repository, and all associated branches in that repo, from THE CLOUD! Hence collaborators can access it, I can access it from different computers, I don't need to lug around my hard drive with Git and the code on it. That's great!
+Q2: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+A2: I suspect in the case that another collaborator does something, we may not that code automatically? Or perhaps it's to save internet data --- retain full control over how much data we're uploading/downloading? I'm not too sure here.
