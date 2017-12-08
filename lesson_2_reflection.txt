@@ -2,3 +2,13 @@ Q1: What happens when you initialize a repository? Why do you need to do it?
 A1: It creates the .git hidden file. This is one of eventually more than one metadata files that tracks the history of the repository and the changes that are made. Without this file, no history can be tracked and thus git isn't operational.
 Q2: How is the staging area different from the working directory and the repository? What value do you think it offers?
 A2: Staging area is as the time implies, just before it's ready to go. I think it's good for final review before cluttering up a more final picture in the repository. I think the working directory is kind of before the staging area... when you're doing the brunt work.
+Q3: How can you use the staging area to make sure you have one commit per logical change?
+A3: run the 'git status' command to see what's been staged. 'git add' to put new files there, and 'git reset <file>' to remove them.
+Q4: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A4: Experimental features, things you want to test pilot without breaking the entire code, different languages which may mess a bit with formatting, stables vs unstable versions, etc.
+Q5: How do the diagrams help you visualize the branch structure?
+A5: Just like all visualizations, helps you see the parent and where you are at. Also the diagrams help understand what is a 'detached HEAD' state... aka when you are working on something no longer in any branch. Remember that git checkout -b <new branch name> does 2 commands - one it creates a new branch "git branch <new branch name>" and then it checkouts the tip of that branch.
+Q6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A6: Updates all the most recent code. Diagram is important to show how you now see the history -- kind of like pushing two stacks of cards together.
+Q7: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A7: Pros of auto is HUGE time saving, less liklihood of manual error. Cons are perhaps you don't quite tweak things how you like (which you can prevent by just preparing better in the first place). Pros of manual is knowing exactly what's hapening as you do it to help ement the concept better.
