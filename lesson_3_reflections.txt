@@ -2,3 +2,8 @@ Q1: When would you want to create a remote repository rather than keeping all yo
 A1: allows you to access the repository, and all associated branches in that repo, from THE CLOUD! Hence collaborators can access it, I can access it from different computers, I don't need to lug around my hard drive with Git and the code on it. That's great!
 Q2: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A2: I suspect in the case that another collaborator does something, we may not that code automatically? Or perhaps it's to save internet data --- retain full control over how much data we're uploading/downloading? I'm not too sure here.
+Q3: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A3:  
+	Branches: A branch is a path in a single repository. A repository is all the files for a single project. There can be multiple branches within a repository. Thus a branch can exist both on GitHub and/or locally.
+	Clone: A clone is when an entire repository is copied either local-to-local (like somewhere else on the hard drive) or from github-to-local (like downloading someone else's repository, or maybe uploading your local repository to Github as well)
+	Forks = github-to-github (cloud only) cloning. Nothing more and nothing less. It has 2 neat features tucked in: (1) On github there is a tracker of the # of times a repo is forked. This can kind of been seen as a popularity tracker in some sense. (2) After forking a repo, github always points it back to the original. Thus credit of the original creator can always be found.
