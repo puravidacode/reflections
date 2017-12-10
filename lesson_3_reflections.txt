@@ -9,3 +9,5 @@ A3:
 	Forks = github-to-github (cloud only) cloning. Nothing more and nothing less. It has 2 neat features tucked in: (1) On github there is a tracker of the # of times a repo is forked. This can kind of been seen as a popularity tracker in some sense. (2) After forking a repo, github always points it back to the original. Thus credit of the original creator can always be found.
 Q4: What is the benefit of having a copy of the last known state of the remote stored locally?
 A4: Not too sure here.  I think the benefit is that that when merging later on you can check the local history vs the github, or remote, history and see how and if there have been diversions?
+Q5: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A5: Share by paper. Easier visually to see everything. you would need to plan explicit changes with someone before you both set to do it. Merging would be a much more intensive and manual task - probably better done sitting down with the person or leaving very good documentation of what you changed.
