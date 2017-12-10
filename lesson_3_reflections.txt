@@ -11,3 +11,5 @@ Q4: What is the benefit of having a copy of the last known state of the remote s
 A4: Not too sure here.  I think the benefit is that that when merging later on you can check the local history vs the github, or remote, history and see how and if there have been diversions?
 Q5: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 A5: Share by paper. Easier visually to see everything. you would need to plan explicit changes with someone before you both set to do it. Merging would be a much more intensive and manual task - probably better done sitting down with the person or leaving very good documentation of what you changed.
+Q6: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A6: If you want something to be reviewed before going straight to master, especially if it's a new feature or substantial change to the idea of the code rather than a simple fix. Going straight to master keeps it more streamlined, however. Bug fixes or tidying up may be good for this.
